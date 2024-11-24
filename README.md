@@ -1,1 +1,1 @@
-# m14-hw14-cobb-marykate
+For this assignment, I used cards to display hobbies with titles descriptions. I also added buttons to the hobbies section and career goals section.

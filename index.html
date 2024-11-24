@@ -8,7 +8,60 @@
   <title>Document</title>
 </head>
 <body>
-  <!-- your code here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">About Me</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#goals">Goals</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h2>About Me</h2>
+        <p>My name is Mary Kate and I currently am a Digital Marketing Manager for a start up in New York. I have an adorable cat named Francis.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h2 id="hobbies">Hobbies</h2>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Working Out</h5>
+            <p class="card-text">One of my favorite hobbies is working out. In New York, there is a wide variety of workout classes to choose from, and I love to go to new places and try new classes. It's also a social activity for me and a way to spend time with friends.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Cooking</h5>
+            <p class="card-text">Cooking is a recent hobby of mine. I've started to cook a new dish every Friday night and it has become a fun tradition for me to experient with new recipes.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2 id="goals">Career Goals</h2>
+        <p>My career goal is to grow my digital marketing skills at a smaller start-up and have a wide portfolio. Eventually, I would love to transition my skills to work for a dermatologist, skincare, or workout brand. I believe continuing to specialize in digital strategy will eventually lead me to that goal.</p>
+        <button class="btn btn-success">Contact Me</button>
+      </div>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
